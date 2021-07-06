@@ -1,6 +1,6 @@
 import os, sys, hashlib, re
 
-FileList = []
+FileList2 = []
 RootDir = r'C:\Users\greys_9wqm0ju\Desktop\root'
 Direct = os.walk(str(RootDir))
 for Path, Dirs, FileNames in Direct:
@@ -8,4 +8,4 @@ for Path, Dirs, FileNames in Direct:
         FilePath = os.path.join(Path, Item)
         FileList.append(FilePath)
 
-print(FileList)
+print(FileList2)
